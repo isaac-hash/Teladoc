@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h2{
+        @apply text-4xl font-extrabold mt-10
+        
+    }
+    h1{
+        @apply text-4xl mt-12
+    }
+    h3{
+        @apply text-3xl mt-12 font-bold
+    }
+    label{
+        @apply font-bold
+    }
+ 
+}
+@layer components{
+    input{
+        @apply rounded-lg p-3
+    }
+    footer{
+        @apply mt-40 m-auto text-purple-900
+        
+    }
+
+}
+
+.fa-triangle-exclamation{
+    font-size: large;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+footer{
+    
+}
+.footer{
+    border-top: 2px dotted lightgray;
+    max-width: 75rem;
+    gap: 1rem;
+    padding: 3rem;
+    margin: auto;
+}
+
+footer div{
+    text-align: center;
+    font-size: 12px;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+form{
+    /* background-color: aqua; */
+    max-width:30rem;
+   
+    margin: auto;
+}
+input{
+    width: 95%;
+    margin: auto;
+    border: 1px solid black;
+
+    margin: .4rem;
+}
+select{
+    width: 95%;
+
+    margin: .4rem;
+}
+#prev{
+    /* width: 50%; */
+    /* margin: auto; */
+    color: #06c;
+
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 20px;
+
+  
+}
+#prev i{
+    font-weight: bold;
+    font-size: 20px;
+}
+.nxt{
+    max-width: 27rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#next{
+    width: 100%;
+    margin: auto;
+    background-color: #5b2f91;
+    color: white;
+    padding: 1rem;
+    font-size: medium;
+    
+}
+#next:hover{
+    color: rgb(124, 18, 124);
+    background-color: #c2a0eb9a;
+    transition: all .3s ease-in-out;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: auto;
+}
+nav{
+    max-width:75rem ;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding:.5rem .5rem;
+    border-bottom: 1px solid rgb(224, 219, 219);
+}
+
+@media screen and (min-width:850px) {
+    nav{
+        margin-bottom: 4rem;
+    }
+}
+
+.left img{
+    width: 40%;
+    /* margin-left: 3rem; */
+
+}
+.language{
+    padding: 1rem 4rem 1rem 1rem;
+}
+
+.language:hover{
+    color: #06c;
+    background-color: rgba(112, 157, 202, 0.377);
+    border-top:2px solid rgb(56, 121, 185);
+    outline-color: 2px solid #06c;
+    /* translate: 2px; */
+}
+
+.select{
+    width: 96%;
+    margin-left: 0.2rem;
+    border: 1px solid black;
+}
+.option{
+    width: 300px;
+}
+
+.top{
+    max-width:30rem;
+    /* font-size: 20px; */
+   
+    margin: auto;
+}

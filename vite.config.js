@@ -23,7 +23,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Teladoc/', // Update this line
+  base: '/Teladoc/', // Change this to match your GitHub repository name
   plugins: [
     vue(),
   ],

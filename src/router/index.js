@@ -6,8 +6,10 @@ import step4 from '../components/step4.vue';
 import home from '../components/home.vue'
 
 
+// const router = createRouter({
+//   history: createWebHistory(import.meta.env.BASE_URL),
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/Teladoc/'),
   routes: [
     {
       path: '/',

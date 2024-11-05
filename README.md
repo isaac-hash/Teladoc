@@ -1,4 +1,4 @@
-# myform
+# In this vue-form only input validation was implemented
 
 This template should help get you started developing with Vue 3 in Vite.
 
